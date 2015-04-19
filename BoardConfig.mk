@@ -132,12 +132,12 @@ BOARD_SEPOLICY_UNION += \
 # BlissPop Config Flags
 TARGET_TC_ROM :=4.8
 TARGET_TC_KERNEL :=4.9-sm
-BLISSIFY :=true
+BLISSIFY :=false
 BLISS_STRICT :=false
-BLISS_O3 :=true
+BLISS_O3 :=false
 BLISS_GRAPHITE :=false
 BLISS_KRAIT :=false
-BLISS_PIPE :=true
+BLISS_PIPE :=false
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 -include vendor/bliss/config/sm.mk
